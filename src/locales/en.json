@@ -1,0 +1,21 @@
+{
+  "language": "Language",
+  "langs": {
+    "en": "English",
+    "tr": "Turkish"
+  },
+  "navbar": {
+    "myStore": "My Store"
+  },
+  "cart": {
+    "title": "Oh My Bag",
+    "noItems": "You have no item in your bag"
+  },
+  "main": {
+    "title": "Your favorite shopping site!"
+  },
+  "product": {
+    "addToCart": "ADD TO CART",
+    "productAdded": "Product Added!"
+  }
+}

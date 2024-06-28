@@ -1,0 +1,21 @@
+{
+  "language": "Dil",
+  "langs": {
+    "en": "Ingilizce",
+    "tr": "Turkce"
+  },
+  "navbar": {
+    "myStore": "Sepetim"
+  },
+  "cart": {
+    "title": "Sepetim",
+    "noItems": "Sepetinde urun yok"
+  },
+  "main": {
+    "title": "Sevimli magazaniz!"
+  },
+  "product": {
+    "addToCart": "SEPETE EKLE",
+    "productAdded": "Urun Eklendi!"
+  }
+}
