@@ -1,41 +1,37 @@
-# vue3-shopping-app
+# 🛒 Vue 3 Shopping Cart
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is a feature-rich shopping cart application built using Vue 3 and the Composition API. It incorporates internationalization (i18n), dark mode, Vuetify, Sass, Pinia for state management, and Vue Router for navigation.
 
-## Recommended IDE Setup
+## 🌟 Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Vue 3 & Composition API: Leverages the latest features of Vue.js for a modern and efficient development experience.
+- Vuetify: Utilizes Vuetify for a beautiful and responsive UI.
+- i18n: Supports multiple languages for a global audience.
+- Dark Mode: Includes a dark mode for better user experience in low-light environments.
+- Sass: Uses Sass for powerful and flexible styling.
+- Pinia: Manages state effectively with Pinia.
+- Vue Router: Handles navigation seamlessly with Vue Router.
 
-## Customize configuration
+## 📦 Technologies Used
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Vue 3
+- Vuetify
+- Vue I18n
+- Sass
+- Pinia
+- Vue Router
 
-## Project Setup
+## 🌍 Internationalization
+This project supports multiple languages. To add a new language, follow these steps:
 
-```sh
-npm install
-```
+- Create a new JSON file in the /locales directory.
+- Add the language to the i18n configuration in /plugins/i18n.js.
 
-### Compile and Hot-Reload for Development
+## 🌗 Dark Mode
+- Dark mode can be toggled via the user interface. The current theme preference is saved in local storage.
 
-```sh
-npm run dev
-```
+## 🤝 Contributing
+- Contributions are welcome! Please create an issue or submit a pull request for any bugs, features, or improvements.
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+## 📧 Contact
+- For questions or feedback, please contact punar.guliyeva@gmail.com.
