@@ -2,6 +2,12 @@
 
 This project is a feature-rich shopping cart application built using Vue 3 and the Composition API. It incorporates internationalization (i18n), dark mode, Vuetify, Sass, Pinia for state management, and Vue Router for navigation.
 
+## 🌐 Live Demo
+
+Check out the live demo of the application deployed on Vercel: [Vue 3 Shopping Cart](https://punars-shopping-app.vercel.app/)
+
+![](/github-assets/preview.png)
+
 ## 🌟 Features
 
 - Vue 3 & Composition API: Leverages the latest features of Vue.js for a modern and efficient development experience.
@@ -22,16 +28,20 @@ This project is a feature-rich shopping cart application built using Vue 3 and t
 - Vue Router
 
 ## 🌍 Internationalization
+
 This project supports multiple languages. To add a new language, follow these steps:
 
 - Create a new JSON file in the /locales directory.
 - Add the language to the i18n configuration in /plugins/i18n.js.
 
 ## 🌗 Dark Mode
-- Dark mode can be toggled via the user interface. The current theme preference is saved in local storage.
+
+Dark mode can be toggled via the user interface. The current theme preference is saved in local storage.
 
 ## 🤝 Contributing
-- Contributions are welcome! Please create an issue or submit a pull request for any bugs, features, or improvements.
+
+Contributions are welcome! Please create an issue or submit a pull request for any bugs, features, or improvements.
 
 ## 📧 Contact
-- For questions or feedback, please contact punar.guliyeva@gmail.com.
+
+For questions or feedback, please contact punar.guliyeva@gmail.com.
