@@ -10,8 +10,10 @@
           <v-card-title class="title">{{ product.title }}</v-card-title>
           <v-card-subtitle class="pt-4"> {{ product.description }}</v-card-subtitle>
           <v-card-text> ${{ product.price }}</v-card-text>
+          <v-btn color="primary" @click="addToCart(product.id)">
+            {{ $t('product.addToCart') }}
+          </v-btn>
         </v-col>
-        <v-btn @click="addToCart(product.id)">{{ $t('product.addToCart') }}</v-btn>
       </v-row>
     </div>
     <SnackBar v-model="showSnack" />
