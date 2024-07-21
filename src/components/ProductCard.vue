@@ -5,7 +5,13 @@
       <v-card-title class="title">{{ props.title }}</v-card-title>
       <v-card-subtitle class="pt-4"> {{ props.subtitle }}</v-card-subtitle>
       <v-card-subtitle class="price"> ${{ props.price }}</v-card-subtitle>
-      <v-btn class="plus-btn" icon="mdi-plus" size="small" @click.stop.prevent="plusClicked" />
+      <v-btn
+        class="plus-btn"
+        icon="mdi-plus"
+        color="primary"
+        size="small"
+        @click.stop.prevent="plusClicked"
+      />
     </v-container>
     <SnackBar v-model="showSnack" />
   </v-card>
